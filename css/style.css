@@ -2,22 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
-main {
-    width: 100%;
+h1 {
+    font-size: 80px;
+    margin-bottom: 50px;
 }
 
-.row-header {
-    display: flex;
-    height: 50px;
-    background-color: red;
+h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
 }
 
+
+h3 {
+    font-size: 20px;
+}
+
+
+
+
+/* CONTAINER PROPERTIES */
 .container-big {
-    background-color: rgb(71, 10, 90);
     width: 100%;
-    border: 2px dotted black;
     margin: auto;
 }
 
@@ -28,40 +37,40 @@ main {
 }
 
 .container-small {
-    background-color: rgb(25, 134, 33);
     max-width: 900px;
     margin: 0 auto;
     border: 2px dotted black;
 }
 
+.content {
+    height: 100%;
+}
+
+
+
 /* ROW PROPERTIES */
 .row-header {
+    display: flex;
+    padding: 20px;
     margin: auto;
 }
+
 
 
 /* COL PROPERTIES */
 .col-100 {
     width: 100%;
     border: 2px dotted black;
-    height: 100px;
 }
 
-.col-60 {
-    width: 60%;
+.col-70 {
+    width: 70%;
     border: 2px dotted black;
     height: 300px;
 }
 
 .col-50 {
     width: 50%;
-    border: 2px dotted black;
-}
-
-.col-40 {
-    width:40%;
-    border: 2px dotted black;
-    height: 300px;
 }
 
 .col-35 {
@@ -72,8 +81,12 @@ main {
 
 .col-33 {
     width: calc(100%/3 - 13.4px);
+    border: 1px solid gray;
+}
+
+.col-30 {
+    width:30%;
     border: 2px dotted black;
-    height: 500px;
 }
 
 .col-20 {
@@ -82,18 +95,55 @@ main {
     border: 2px dotted white;
 }
 
-/* UTILITY */
 
+
+/* UTILITY */
 .flex {
     display: flex;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 .wrap {
     flex-wrap: wrap;
 }
 
-.margin-top-bottom-100 {
-    margin: 100px 0;
+.justify-center {
+    justify-content: center;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.content-col-70 img {
+    width: 85%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+
+.border-bottom {
+    border-bottom: 1px solid gray ;
+}
+
+hr {
+   width: 20%;
+   margin: 30px 20px;
+}
+
+
+/* MARGIN / PADDINGS */
+.margin-top-bottom-200 {
+    margin: 200px 0;
 }
 
 .margin-bottom-100 {
@@ -104,13 +154,102 @@ main {
     padding-top: 100px;
 }
 
+.padding-right-50 {
+    padding-right: 50px;
+}
+
+.padding-5-20 {
+    padding: 5px 20px;
+}
+
+.padding-10-20 {
+    padding: 10px 20px;
+}
+
+.padding-10-30 {
+    padding: 10px 30px;
+}
+
+.padding-10-60 {
+    padding: 10px 80px;
+}
+
+.padding-20-20 {
+    padding: 20px 20px;
+}
+
+.padding-10-0 {
+    padding: 10px 0;
+}
+
 .gap-20 {
     gap: 20px;
 }
 
 .max-width{
-    max-width:1600px;
+    max-width:1800px;
 }
+
+.margin-x-20{
+    margin: 0 20px;
+}
+
+.margin-x-10 {
+    margin: 0 10px;
+}
+
+.margin-y-10 {
+    margin: 10px 0;
+}
+
+.margin-y-20 {
+    margin: 20px 0;;
+}
+
+.margin-y-30 {
+    margin: 30px 0;
+}
+
+.content-col-30 img {
+    margin: 50px 0px 20px 0px ;
+}
+
+.content-col-30 button {
+    margin: 30px 0;
+    padding: 10px 20px;
+}
+
+#radio {
+    margin-bottom: 20px;
+}
+
+
+
+/* LIST STYLES */
+ul {
+    list-style-type: none;
+}
+
+
+
+/* BUTTON STYLES */
+button {
+    background: none;
+    border: none;
+}
+
+.blue-button {
+    background-color: rgb(71, 71, 248);
+    color: white;
+}
+
+
+/* ICON STYLES */
+
+.icon-style {
+    width: 15px;
+}
+
 
 /* COLORS */
 
@@ -122,6 +261,6 @@ main {
     background-color: black;
 }
 
-.b-purple {
-    background-color: rgb(71, 10, 90);
+.gray-text {
+    color: rgb(94, 94, 94);
 }
