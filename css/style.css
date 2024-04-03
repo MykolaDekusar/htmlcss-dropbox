@@ -12,8 +12,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 40px;
 }
 
 h3 {
@@ -34,7 +33,7 @@ h3 {
 }
 
 .container-small {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     border: 2px dotted black;
 }
@@ -174,6 +173,18 @@ hr {
     margin: 200px 0;
 }
 
+.margin-top-110 {
+    margin-top: 110px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-top-bot-100 {
+    margin: 100px 0;
+}
+
 .margin-bottom-100 {
     margin-bottom: 100px;
 }
@@ -254,9 +265,12 @@ hr {
      margin: 30px 20px;
 }
 
-
 .margin-top-30 {
     margin-top: 30px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
 }
 
 .border-1-solid {
@@ -324,6 +338,10 @@ button {
     background-color: lightskyblue;
 }
 
+.b-white {
+    background-color: white;
+}
+
 .b-black {
     background-color: black;
 }
@@ -342,6 +360,10 @@ button {
 
 .b-dark-red {
     background-color: rgb(71, 0, 0);
+}
+
+.text-color-dark-red {
+    color: rgb(71, 0, 0);
 }
 
 .b-blue-icon {
