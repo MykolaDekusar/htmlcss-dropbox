@@ -35,7 +35,6 @@ h3 {
 .container-small {
     max-width: 1000px;
     margin: 0 auto;
-    border: 2px dotted black;
 }
 
 .content {
@@ -56,12 +55,10 @@ h3 {
 /* COL PROPERTIES */
 .col-100 {
     width: 100%;
-    border: 2px dotted black;
 }
 
 .col-70 {
     width: 70%;
-    border: 2px dotted black;
     height: 300px;
 }
 
@@ -75,25 +72,19 @@ h3 {
 
 .col-35 {
     width: 35%;
-    border: 2px dotted black;
-    height: 500px;
 }
 
 .col-33 {
     width: calc(100%/3 - 13.4px);
-    border: 1px solid gray;
 }
 
 .col-30 {
     width:30%;
-    border: 2px dotted black;
 }
 
 
 .col-20 {
-    width: calc(100% / 5);
-    height: 400px;
-    border: 2px dotted white;
+    width: calc(100% / 5 - 16px);
 }
 
 
@@ -194,6 +185,10 @@ hr {
     margin-bottom: 100px;
 }
 
+.padding-top-200 {
+    padding-top: 200px;
+}
+
 .padding-top-100 {
     padding-top: 100px;
 }
@@ -222,8 +217,12 @@ hr {
     padding: 10px 30px;
 }
 
-.padding-10-60 {
+.padding-10-80 {
     padding: 10px 80px;
+}
+
+.padding-10-60 {
+    padding: 10px 60px;
 }
 
 .padding-20-20 {
@@ -264,6 +263,14 @@ hr {
 
 .margin-x-10 {
     margin: 0 10px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
 }
 
 .margin-y-10 {
@@ -349,6 +356,14 @@ button {
 
 .invert-img {
     filter: invert(1);
+}
+
+.invert-img-gray {
+    filter: invert(0.7);
+}
+
+.white-color {
+    color: white;
 }
 
 .b-azure {
