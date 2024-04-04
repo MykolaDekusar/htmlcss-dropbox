@@ -140,7 +140,8 @@ hr {
 }
 
 .content-col-100 .width-80 {
-    margin-top: 60px;
+    margin-top: 40px;
+    width: 65%;
 }
 
 .width-100 {
@@ -153,6 +154,10 @@ hr {
 
 .width-60 {
     width: 60%;
+}
+
+.width-50 {
+    width: 50%;
 }
 
 .square {
@@ -181,6 +186,10 @@ hr {
     margin: 100px 0;
 }
 
+.margin-top-bot-50 {
+    margin: 50px 0;
+}
+
 .margin-bottom-100 {
     margin-bottom: 100px;
 }
@@ -199,6 +208,10 @@ hr {
 
 .padding-right-50 {
     padding-right: 50px;
+}
+
+.padding-right-20 {
+    padding-right: 20px;
 }
 
 .padding-top-bot-50 {
@@ -235,6 +248,10 @@ hr {
 
 .padding-40-40 {
     padding: 40px 40px;
+}
+
+.padding-40-60 {
+    padding: 40px 60px;
 }
 
 .padding-80-80 {
